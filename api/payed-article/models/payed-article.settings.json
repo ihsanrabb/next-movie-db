@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payed_articles",
+  "info": {
+    "name": "Payed Article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

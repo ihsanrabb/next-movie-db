@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/payed-articles",
+      "handler": "payed-article.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/payed-articles/count",
+      "handler": "payed-article.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/payed-articles/:id",
+      "handler": "payed-article.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payed-articles",
+      "handler": "payed-article.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/payed-articles/:id",
+      "handler": "payed-article.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/payed-articles/:id",
+      "handler": "payed-article.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
